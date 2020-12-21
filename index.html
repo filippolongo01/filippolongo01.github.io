@@ -10,42 +10,81 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
+    <link href="style.css" rel="stylesheet" type="text/css">
+
     <title>La mia prima prova con bootstrap</title>
 </head>
 
 <body>
-    <table class="table">
-        <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
-            </tr>
-        </tbody>
-    </table>
+    <!-- INIZIO BARRA -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand">Cicciosoft</a>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">prezzi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">cntatti</a>
+                    </li>
 
 
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- FINE BARRA -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <span class="cella">cella 1</span>
+            </div>
+            <div class="col">
+                <span class="cella">cella 2</span>
+            </div>
+            <div class="col">
+
+                <span class="cella"> cella 3</span>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <span>Belle cose della prima colonna</span>
+
+            </div>
+            <div class="col">
+                <span>Belle cose della seconda colonna</span>
+
+            </div>
+            <div class="col">
+                <span>Belle cose della terza colonna</span>
+
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+        <button type="button" class="btn pulsante">Primary</button>
+
+    </div>
+
+
+    <!--NON RIMUOVERE SERVE A BOOTSTRAP-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
